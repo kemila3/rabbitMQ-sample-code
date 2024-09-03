@@ -1,7 +1,7 @@
 const amqplib = require("amqplib");
 
 const queueName = "Hello";
-const msg = "Hello 1";
+const msg = "Hello 2";
 
 const sendMessage = async () => {
   const connection = await amqplib.connect("amqp://localhost");
